@@ -1,0 +1,29 @@
+.card {
+  display: grid;
+  width: 300px;
+  border: solid;
+  color: black;
+  text-align: left;
+  box-sizing: border-box;
+  padding: 10px;
+  grid-gap: 5px;
+
+  &__img {
+    background-image: url(img/img1.jpg);
+    background-size: 100%;
+    width: 101%;
+    height: 183px;
+  }
+
+  &__button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  &__date {
+    text-align: right;
+  }
+}
